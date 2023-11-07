@@ -1,5 +1,5 @@
-export const BASE_PATH = "https://api.ree6.de"
-export const INVITE_URL = "https://invite.ree6.de"
+export const BASE_PATH = "https://api.t0g3pii.de"
+export const INVITE_URL = "https://invite.t0g3pii.de"
 
 export function get(path: string) {
 
