@@ -11,8 +11,8 @@
     onMount(async () => {
         loading = true;
 
-        await loadLeaderboard("chat")
         await loadLeaderboard("voice")
+        await loadLeaderboard("chat")
         loading = false;
     })
 
