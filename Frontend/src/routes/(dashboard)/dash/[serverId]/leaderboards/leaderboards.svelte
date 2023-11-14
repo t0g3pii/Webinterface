@@ -49,7 +49,7 @@
                 </div>
     
                 <div class="level">
-                    <p class="text-small">&lt; Level {leaderboard.userLevel.level} &gt; ({leaderboard.userLevel.experience}/{leaderboard.userLevel.totalExperienceForNextLevel}) <small>{leaderboard.userLevel.progress}%</small></p>
+                    <p class="text-small">&lt; Level {leaderboard.userLevel.level} &gt; ({leaderboard.userLevel.formattedExperience}/{leaderboard.userLevel.formattedNeededExperience}) <small>{leaderboard.userLevel.progress}%</small></p>
                 </div>
             </div>
         </div>
