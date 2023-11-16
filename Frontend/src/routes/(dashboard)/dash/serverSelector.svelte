@@ -3,7 +3,7 @@
     import LoadingIndicator from "$lib/components/loadingIndicator.svelte";
     import { currentServer, serversLoading, type Server, servers } from "$lib/scripts/servers";
     import { slide } from "svelte/transition";
-    import { INVITE_URL } from "$lib/scripts/constants";
+    import { INVITE_URL } from "../../../lib/scripts/constants";
 
     let expanded = false;
 
