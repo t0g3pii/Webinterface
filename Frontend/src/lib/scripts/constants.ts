@@ -1,5 +1,5 @@
 export const BASE_PATH = "https://api.t0g3pii.de"
-export const INVITE_URL = "https://discord.com/oauth2/authorize?client_id=1060282885426380852&scope=bot&permissions=295043149046&redirect_uri=https%3A%2F%2Fbot.t0g3pii.de%2Flogin"
+export const INVITE_URL = new URL("https://discord.com/oauth2/authorize?client_id=1060282885426380852&scope=bot&permissions=295043149046&redirect_uri=https%3A%2F%2Fbot.t0g3pii.de%2Flogin")
 
 export function get(path: string) {
 
